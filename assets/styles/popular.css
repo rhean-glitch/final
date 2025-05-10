@@ -1,0 +1,137 @@
+.popular {
+    padding-top: 12rem;
+}
+
+.popular-text {
+    text-align: center;
+}
+
+.popular-text span {
+    color: #ff5349;
+}
+
+.popular-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.list {
+    position: relative;
+    width: 13rem;
+    height: 10.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.price {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 7rem;
+    height: 2.5rem;
+    background: red;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.price p {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.popular-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.popular-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.popular-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.popular-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.popular-two {
+    width: 79rem;
+    height: 20rem;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+}
+
+.pp-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.popular-background {
+    position: relative;
+    width: 77rem;
+    height: 11rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .popular-list {
+        flex-direction: column;
+    }
+
+    .list {
+        width: 21rem;
+    }
+
+    .popular-two {
+        width: 40rem;
+    }
+
+    .popular-background {
+        width: 38rem;
+    }
+
+    .popular-button {
+        margin-top: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .popular {
+        padding-top: 7rem;
+    }
+
+
+    .list {
+        width: 15rem;
+    }
+
+    .popular-two {
+        width: 24rem;
+    }
+
+    .popular-background {
+        width: 22rem;
+    }
+
+}

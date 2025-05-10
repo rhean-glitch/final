@@ -3,8 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    margin-bottom: 20rem;
-}    
+}
 
 .chef-background {
     display: flex;
@@ -41,4 +40,59 @@
 
 .chef-info {
     width: 50rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .chef-main {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .chef-background {
+        width: 35rem;
+        height: 31rem;
+        margin-top: 2rem;
+    }
+
+    .chef-content {
+        width: 34rem;
+        height: 30rem;
+    }
+
+    .chef-info {
+        width: 40rem;
+        text-align: center;
+    }
+
+    .chef-info h2 {
+        text-align: center;
+    }
+
+    .chef-text {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .chef-background {
+        width: 22rem;
+        height: 24rem;
+        margin-top: 2rem;
+    }
+
+    .chef-content {
+        width: 21rem;
+        height: 23rem;
+    }
+
+    .chef-info {
+        width: 20rem;
+        text-align: justify;
+    }
+
+    .chef-info p {
+        padding-top: 0.5rem;
+    }
+
 }

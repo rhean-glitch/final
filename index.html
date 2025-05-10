@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eat n' Repeat</title>
     <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,16 +22,18 @@
                     <h1>Eat n' Repeat</h1>
                 </div>
             </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="menu-btn">☰</label>
             <div class="header-list">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Popular</a></li>
-                    <li><a href="">Menuy</a></li>
-                    <li><a href="">Review</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/popular.html">Popular</a></li>
+                    <li><a href="/pages/menu.html">Menu</a></li>
+                    <li><a href="#reviews">Review</a></li>
                 </ul>
             </div>
             <div class="header-button">
-                <button>Order Now</button>
+                <a href="/pages/order.html"><button>Order Now</button></a>
             </div>
         </nav>
     </header>
@@ -185,7 +190,105 @@
             </div>
         </section>
 
+        <section id="reviews">
+            <div class="reviews">
+                <div class="reviews-s">
+                    <h1>Our Customer <span>Reviews</span></h1>
+                </div>
+                <div class="reviews-main">
+                    <div class="reviews-background">
+                        <div class="reviews-content">
+                            <div class="reviews-onebg">
+                                <div class="reviews-one">
+
+                                </div>
+                            </div>
+                            <div class="reviews-name">
+                                <h1>John Doe</h1>
+                            </div>
+                            <div class="reviews-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="reviews-text">
+                                <p>The cafe had a fantastic atmosphere; it was the perfect spot for a relaxing evening.
+                                    The drinks were expertly crafted, and the service was friendly and efficient. I
+                                    highly recommend this place for a great time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-background">
+                        <div class="reviews-content">
+                            <div class="reviews-onebg">
+                                <div class="reviews-one">
+
+                                </div>
+                            </div>
+                            <div class="reviews-name">
+                                <h1>John Doe</h1>
+                            </div>
+                            <div class="reviews-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="reviews-text">
+                                <p>The cafe had a fantastic atmosphere; it was the perfect spot for a relaxing evening.
+                                    The drinks were expertly crafted, and the service was friendly and efficient. I
+                                    highly recommend this place for a great time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-background">
+                        <div class="reviews-content">
+                            <div class="reviews-onebg">
+                                <div class="reviews-one">
+
+                                </div>
+                            </div>
+                            <div class="reviews-name">
+                                <h1>John Doe</h1>
+                            </div>
+                            <div class="reviews-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="reviews-text">
+                                <p>The cafe had a fantastic atmosphere; it was the perfect spot for a relaxing evening.
+                                    The drinks were expertly crafted, and the service was friendly and efficient. I
+                                    highly recommend this place for a great time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <div>
+            <div class="footer-main">
+                <div class="footer-button">
+                    <button>Facebook</button>
+                    <button>Instagram</button>
+                </div>
+                <div class="footer-text">
+                    <p>@ All Rights Reserved. <span>2023</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>

@@ -15,3 +15,27 @@
     height: 18rem;
     background: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .card-main {
+        width: 23rem;
+        height: 20rem;
+    }
+
+    .card {
+        width: 21rem;
+        height: 18rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-main {
+        width: 17rem;
+        height: 20rem;
+    }
+
+    .card {
+        width: 15rem;
+        height: 18rem;
+    }
+}

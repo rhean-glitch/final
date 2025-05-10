@@ -47,3 +47,38 @@
     height: 18rem;
     background: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .c-items {
+        flex-direction: column;
+    }
+
+    .c-items-two {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .c-two-main {
+        width: 34rem;
+        height: 20rem;
+    }
+
+    .c-two {
+        width: 32rem;
+        height: 18rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .c-two-main {
+        width: 23rem;
+        height: 20rem;
+    }
+
+    .c-two {
+        width: 21rem;
+        height: 18rem;
+    }
+
+}

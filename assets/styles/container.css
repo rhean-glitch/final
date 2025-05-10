@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+    padding-top: 5.5rem;
 }
 
 .c-image img {
@@ -16,7 +17,7 @@
 
 .c-text {
     width: 40rem;
-    color:#212020;
+    color: #212020;
     text-align: justify;
 }
 
@@ -35,4 +36,48 @@
 
 .c-button {
     padding-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .c-text {
+        width: 20rem;
+    }
+
+    .c-text p {
+        padding-top: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .c-text h1 {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .c-image img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .c-button {
+        padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .c-text h1 {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .c-button {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
 }
