@@ -1,0 +1,19 @@
+button {
+    width: 7rem;
+    height: 2.5rem;
+    border: 1px solid #ff5349;
+    color: #ff5349;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.header-button {
+    margin-right: 4rem;
+}
+
+button:hover {
+    background-color: #ff5349;
+    color: white;
+}

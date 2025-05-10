@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.c-image img {
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+
+.c-text {
+    width: 40rem;
+    color:#212020;
+    text-align: justify;
+}
+
+.c-text h1 {
+    font-size: 3rem;
+}
+
+.c-text span {
+    color: #ff5349;
+}
+
+.c-text p {
+    color: gray;
+    padding-top: 1rem;
+}
+
+.c-button {
+    padding-top: 1rem;
+}

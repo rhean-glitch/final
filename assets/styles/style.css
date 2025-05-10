@@ -1,0 +1,20 @@
+@import url(navbar.css);
+@import url(button.css);
+@import url(container.css);
+@import url(specialty.css);
+@import url(card.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f7f7f7;
+}
+

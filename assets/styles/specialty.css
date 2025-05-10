@@ -1,0 +1,48 @@
+.s-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.s-text h1 {
+    font-size: 1.7rem;
+    color: #4e4c4c;
+}
+
+.s-text span {
+    color: #ff5349;
+}
+
+.c-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.c-items-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.c-two-main {
+    width: 39rem;
+    height: 20rem;
+    background-color: #f7f7f7;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.c-two {
+    width: 37rem;
+    height: 18rem;
+    background: white;
+}

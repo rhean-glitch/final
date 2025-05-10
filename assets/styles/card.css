@@ -1,0 +1,16 @@
+.card-main {
+    width: 15rem;
+    height: 20rem;
+    background-color: #f7f7f7;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.card {
+    width: 13rem;
+    height: 18rem;
+    background: white;
+}
