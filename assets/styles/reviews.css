@@ -92,12 +92,12 @@
 
 @media only screen and (max-width: 425px) {
     .reviews-background {
-        width: 20.5rem;
+        width: 20rem;
         height: 18rem;
     }
 
     .reviews-content {
-        width: 19rem;
+        width: 18.5rem;
         height: 16.5rem;
     }
 
