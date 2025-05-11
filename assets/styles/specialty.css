@@ -81,15 +81,15 @@
 
 @media only screen and (max-width: 425px) {
     .c-two-main {
-        width: 23rem;
+        width: 21.5rem;
     }
 
     .c-two-main img {
-        width: 21rem;
+        width: 19.5rem;
     }
 
     .c-two {
-        width: 21rem;
+        width: 19.5rem;
         height: 18rem;
     }
 
