@@ -72,9 +72,9 @@
 }
 
 .reviews-text p {
-    text-align: center;
+    text-align: justify;
     margin-top: 0.25rem;
-    padding: 1px;
+    padding: 0 1rem;
     color: white;
 }
 
@@ -93,12 +93,12 @@
 @media only screen and (max-width: 425px) {
     .reviews-background {
         width: 21.5rem;
-        height: 17.5rem;
+        height: 18rem;
     }
 
     .reviews-content {
         width: 20rem;
-        height: 16rem;
+        height: 16.5rem;
     }
 
     .reviews-text p {

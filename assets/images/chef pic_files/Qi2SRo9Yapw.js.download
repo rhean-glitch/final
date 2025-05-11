@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("StoriesShouldEnableVideoAutoplay.relayprovider",["qex"],(function(a,b,c,d,e,f,g){"use strict";a={get:function(){var a;return(a=c("qex")._("4381"))!=null?a:!1}};g["default"]=a}),98);

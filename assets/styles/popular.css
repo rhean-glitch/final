@@ -21,11 +21,11 @@
 
 .list {
     position: relative;
-    width: 13rem;
-    height: 10.5rem;
-    background-image: url(../images/home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.list img {
+    width: 13.5rem;
+    height: 10rem;
     border-radius: 0.5rem;
 }
 
@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     gap: 0.2rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .popular-icon i {
@@ -76,9 +76,10 @@
         flex-direction: column;
     }
 
-    .list {
+    .list img {
         width: 21rem;
     }
+
 
     .popular-button {
         margin-top: 0.8rem;
@@ -92,7 +93,7 @@
     }
 
 
-    .list {
+    .list img {
         width: 15rem;
     }
 
