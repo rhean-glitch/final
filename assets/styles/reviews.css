@@ -51,8 +51,14 @@
 .reviews-one {
     width: 5.2rem;
     height: 5.2rem;
-    background: black;
     border-radius: 50%;
+}
+
+.reviews-one img {
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .reviews-name {

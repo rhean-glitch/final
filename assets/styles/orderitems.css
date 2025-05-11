@@ -18,8 +18,14 @@
 .order-food-item {
     width: 10rem;
     height: 6rem;
-    background: black;
     margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.order-food-item img {
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
 
 .food-items-text {

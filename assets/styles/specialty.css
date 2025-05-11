@@ -42,6 +42,12 @@
     box-shadow: 4px 8px 0 1px rgba(0, 0, 0, 0.218);
 }
 
+.c-two-main img {
+    width: 37rem;
+    height: 18rem;
+    object-fit: cover;
+}
+
 .c-two {
     width: 37rem;
     height: 18rem;
@@ -60,7 +66,10 @@
 
     .c-two-main {
         width: 34rem;
-        height: 20rem;
+    }
+
+    .c-two-main img {
+        width: 32rem;
     }
 
     .c-two {
@@ -73,7 +82,10 @@
 @media only screen and (max-width: 425px) {
     .c-two-main {
         width: 23rem;
-        height: 20rem;
+    }
+
+    .c-two-main img {
+        width: 21rem;
     }
 
     .c-two {

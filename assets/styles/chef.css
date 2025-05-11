@@ -1,15 +1,16 @@
 .chef-main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .chef-background {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24rem;
+    width: 52rem;
     height: 31rem;
     background-color: black;
     margin-top: 4rem;
@@ -18,9 +19,16 @@
 }
 
 .chef-content {
-    width: 23rem;
+    width: 51rem;
     height: 30rem;
-    background-color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.chef-content img {
+    width: 51rem;
+    height: 30rem;
+    object-fit: cover;
     border-top-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
@@ -57,7 +65,10 @@
 
     .chef-content {
         width: 34rem;
-        height: 30rem;
+    }
+
+    .chef-content img {
+        width: 34rem;
     }
 
     .chef-info {
@@ -82,6 +93,10 @@
     }
 
     .chef-content {
+        width: 21rem;
+        height: 23rem;
+    }
+    .chef-content img {
         width: 21rem;
         height: 23rem;
     }
