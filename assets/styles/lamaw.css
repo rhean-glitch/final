@@ -1,0 +1,118 @@
+.lamaw {
+    padding-top: 9rem;
+}
+
+.sandwich {
+    padding-top: 5rem;
+}
+
+.silog {
+    padding-top: 5rem;
+}
+
+.lamaw-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lamaw-background {
+    width: 20rem;
+    height: 5rem;
+    background: black;
+    border-radius: 0.5rem;
+}
+
+.lamaw-text {
+    text-align: center;
+}
+
+.lamaw-text h1 {
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.main-menu-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.main-onebg {
+    width: 38rem;
+    height: 7rem;
+    background: white;
+    border: 1px solid orangered;
+    display: flex;
+}
+
+.main-one-img {
+    width: 14rem;
+    height: 6.9rem;
+    background: white;
+    border-right: 1px solid orangered;
+}
+
+.main-one-text {
+    display: flex;
+    align-items: center;
+}
+
+.main-one-text p {
+    text-align: start;
+    padding-left: 2.2rem;
+}
+
+.main-one-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 6.9rem;
+    background: white;
+    border-left: 1px solid orangered;
+}
+
+.main-one-price {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .lamaw-background {
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .lamaw-text h1 {
+        padding-top: 1rem;
+    }
+
+    .main-onebg {
+        width: 22rem;
+        height: 5rem;
+    }
+
+    .main-one-img {
+        width: 20rem;
+        height: 4.9rem;
+    }
+
+    .main-one-text p {
+        text-align: start;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .main-one-price {
+        width: 4rem;
+        height: 4.9rem;
+    }
+
+    .main-one-price h3 {
+        font-size: 1rem;
+    }
+
+}

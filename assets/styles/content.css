@@ -36,6 +36,13 @@
     border-radius: 50%;
 }
 
+.content-item img {
+    width: 10.5rem;
+    height: 10.5rem;
+    background: red;
+    border-radius: 50%;
+}
+
 .content-text {
     margin-top: 1rem;
 }
@@ -60,7 +67,11 @@
     .content-item {
         width: 8.5rem;
         height: 8.5rem;
-        background: red;
-        border-radius: 50%;
+
+    }
+
+    .content-item img {
+        width: 8.5rem;
+        height: 8.5rem;
     }
 }

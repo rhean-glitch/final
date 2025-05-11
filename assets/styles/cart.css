@@ -1,0 +1,25 @@
+.cart-text {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.gob-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.gob-button button {
+    width: 11rem;
+}
+
+@media only screen and (max-width: 425px) {
+    .cart-text {
+        margin-top: 10rem;
+    }
+
+    .cart-text h1 {
+        font-size: 1.3rem;
+    }
+}

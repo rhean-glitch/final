@@ -1,0 +1,72 @@
+.order {
+    padding-top: 10rem;
+
+}
+
+.order-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem;
+    height: 7rem;
+    background: black;
+    border-radius: 0.5rem;
+}
+
+.order-main h1 {
+    margin-left: 1rem;
+    color: white;
+}
+
+.order-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    width: 6rem;
+    height: 4rem;
+    background: white;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.order-cart {
+    font-size: 1.5rem;
+    color: #ffdd00;
+}
+
+.order-num {
+    width: 2rem;
+    height: 2rem;
+    background-color: #ffdd00;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.order-num>p {
+    margin-top: 0.25rem;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .order-main {
+        width: 45rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .order-main {
+        width: 22.5rem;
+        height: 3.5rem;
+    }
+
+    .order-icon {
+        height: 2.5rem;
+    }
+}

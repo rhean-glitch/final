@@ -8,6 +8,10 @@
 @import url(reviews.css);
 @import url(footer.css);
 @import url(popular.css);
+@import url(order.css);
+@import url(orderitems.css);
+@import url(cart.css);
+@import url(lamaw.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
 
